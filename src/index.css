@@ -1,0 +1,25 @@
+/*  global classes */
+/*
+=============== 
+Buttons
+===============
+*/
+
+.btn-container {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn-container button {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
